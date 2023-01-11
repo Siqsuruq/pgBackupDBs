@@ -46,5 +46,5 @@ echo -e "\n\nPerforming full backups"
 	echo -e "\nAll database backups complete!"
 	
 # Delete daily backups 7 days old or more
-find $BACKUP_DIR -maxdepth 1 -mtime +$DAYS_TO_KEEP -name "*.custom" -exec rm -rf '{}' ';'
-find $BACKUP_DIR -maxdepth 1 -mtime +$DAYS_TO_KEEP -name "*.sql.gz" -exec rm -rf '{}' ';'
+find $FINAL_BACKUP_DIR -maxdepth 1 -mtime +$DAYS_TO_KEEP -name "*.custom" -exec rm -rf '{}' ';'
+find $FINAL_BACKUP_DIR -maxdepth 1 -mtime +$DAYS_TO_KEEP -name "*.sql.gz" -exec rm -rf '{}' ';'
