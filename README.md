@@ -48,4 +48,4 @@ If your database does not exist, run first and then you can restore it with the 
 	
 	
 
-** NOTE: its kinda not secure to set your DB password in the script like this export PGPASSWORD="P05tgre5!." But it will be inside root folder, so for dev purposes its ok **
+** NOTE: its kinda not secure to set your DB password in the script like this export PGPASSWORD="P05tgre5!." But it will be inside root folder, so for dev purposes its ok. Don't forget to change this into your real password. **

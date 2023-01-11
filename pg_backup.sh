@@ -1,4 +1,5 @@
 #!/bin/bash
+# Don't forget to change next line into your real password. Pay atention to the README note
 export PGPASSWORD="P05tgre5!."
 HOSTNAME=localhost
 USERNAME=postgres
