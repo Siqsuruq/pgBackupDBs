@@ -45,3 +45,7 @@ If your database does not exist, run first and then you can restore it with the 
 
 	createdb -U postgres -W DB_NAME
 	gunzip -c DB_NAME.sql.gz | psql -h localhost -U postgres -d DB_NAME 
+	
+	
+
+** NOTE: its kinda not secure to set your DB password in the script like this export PGPASSWORD="P05tgre5!." But it will be inside root folder, so for dev purposes its ok **
