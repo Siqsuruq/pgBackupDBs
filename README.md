@@ -13,7 +13,7 @@ Simple bash script to backup Postgres Databases
     the forth flag * says every month.
     the fifth flag (third 0) specifies the week day. From 0 to 6 mean Sunday to Saturday.
 
-4. Run echo "hello world!" command everyday at 16:30, add this line:
+4. Run pg_backup.sh command everyday at 23:00, add this line:
 
 	00 23 * * * /root/backup/dbs/pg_backup.sh
 	
